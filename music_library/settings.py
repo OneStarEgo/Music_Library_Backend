@@ -68,6 +68,8 @@ TEMPLATES = [
     },
 ]
 
+DATE_INPUT_FORMAT = ['%d-%m-%Y']
+
 WSGI_APPLICATION = 'music_library.wsgi.application'
 
 
@@ -102,7 +104,6 @@ AUTH_PASSWORD_VALIDATORS = [
         'NAME': 'django.contrib.auth.password_validation.NumericPasswordValidator',
     },
 ]
-
 
 # Internationalization
 # https://docs.djangoproject.com/en/4.1/topics/i18n/
